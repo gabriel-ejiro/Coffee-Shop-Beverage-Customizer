@@ -6,25 +6,26 @@ Each additional ingredient affects the total cost and description.
 Instead of creating subclasses for every combination, your task is to implement a decorator-based system where additional features (toppings) can be dynamically "wrapped" around base drinks.
 
 
+
 📋 Functional Requirements
 
-Implement a base Beverage interface with methods get_description() and cost().
+   - Implement a base Beverage interface with methods get_description() and cost().
 
-Create concrete classes like Espresso, Tea, Cappuccino.
+   - Create concrete classes like Espresso, Tea, Cappuccino.
 
-Create decorators like Milk, Caramel, Whip, etc., that wrap beverages and modify behavior.
+   - Create decorators like Milk, Caramel, Whip, etc., that wrap beverages and modify behavior.
+ 
+   - Compose decorated beverages dynamically in a main() method.
 
-Compose decorated beverages dynamically in a main() method.
-
-Print description and total cost.
+   - Print description and total cost.
 
 
  Possible Extensions
  
-Add calorie count for each decorator and display total calories.
+ - Add calorie count for each decorator and display total calories.
 
-Introduce support for sizes (small, medium, large) and adjust prices accordingly.
+ - Introduce support for sizes (small, medium, large) and adjust prices accordingly.
 
-Implement a Menu class that dynamically generates available options.
+ -  Implement a Menu class that dynamically generates available options.
 
-Build a simple GUI or web app version using Flask or Tkinter.
+ - Build a simple GUI or web app version using Flask or Tkinter.
