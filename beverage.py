@@ -17,3 +17,6 @@ class Beverage(ABC):
             return 1.3
         else:
             return 1.0
+
+Beverage.calories = lambda self: 0
+
